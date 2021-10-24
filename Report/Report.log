@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.6)  23 OCT 2021 18:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.6)  24 OCT 2021 15:33
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -1114,153 +1114,164 @@ LaTeX Info: Redefining \[ on input line 65.
 LaTeX Info: Redefining \] on input line 65.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+<plots/ntua_logo.png, id=3, 240.9pt x 240.9pt>
+File: plots/ntua_logo.png Graphic file (type png)
+<use plots/ntua_logo.png>
+Package pdftex.def Info: plots/ntua_logo.png  used on input line 70.
+(pdftex.def)             Requested size: 83.64944pt x 83.64725pt.
+ [1
 
+{C:/Users/vassi/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./plots/ntua_lo
+go.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 100
+.
 
 (C:\Users\vassi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 100
+.
 
 (C:\Users\vassi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (16.61572pt too wide) in paragraph at lines 85--86
+Overfull \hbox (16.61572pt too wide) in paragraph at lines 118--119
 \LGR/cmr/m/n/10.95 tac sunart†-seic thc bib-lio-j†khc \T1/cmr/m/n/10.95 mat-plo
 tlib \LGR/cmr/m/n/10.95 kai sug-kekrimËna thc $\OML/cmm/m/it/10.95 plt:imshow\O
 T1/cmr/m/n/10.95 ()$ \LGR/cmr/m/n/10.95 kai $\OML/cmm/m/it/10.95 plt:show\OT1/c
 mr/m/n/10.95 ()$\T1/cmr/m/n/10.95 .
  []
 
-<plots/Step 2.png, id=3, 462.528pt x 346.896pt>
+<plots/Step 2.png, id=17, 462.528pt x 346.896pt>
 File: plots/Step 2.png Graphic file (type png)
 <use plots/Step 2.png>
-Package pdftex.def Info: plots/Step 2.png  used on input line 89.
+Package pdftex.def Info: plots/Step 2.png  used on input line 122.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-[1
-
-{C:/Users/vassi/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./plots/Step 2.
-png>]
-<plots/Step 3.png, id=18, 462.528pt x 346.896pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 
+       [1 <./plots/Step 2.png>]
+<plots/Step 3.png, id=29, 462.528pt x 346.896pt>
 File: plots/Step 3.png Graphic file (type png)
 <use plots/Step 3.png>
-Package pdftex.def Info: plots/Step 3.png  used on input line 98.
+Package pdftex.def Info: plots/Step 3.png  used on input line 131.
 (pdftex.def)             Requested size: 460.08159pt x 345.07956pt.
 
-Overfull \hbox (41.82791pt too wide) in paragraph at lines 98--99
+Overfull \hbox (41.82791pt too wide) in paragraph at lines 131--132
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
  []
 
 [2 <./plots/Step 3.png>]
-Overfull \hbox (111.19406pt too wide) in paragraph at lines 112--113
+Overfull \hbox (111.19406pt too wide) in paragraph at lines 145--146
 \LGR/cmr/m/n/10.95 mÏno pou se aut† thn per–ptwsh to \T1/cmr/m/n/10.95 func-tio
 n \LGR/cmr/m/n/10.95 pou dom†jhke \T1/cmr/m/n/10.95 ($\OML/cmm/m/it/10.95 mean[
 ]value[]at[]pixel[]of[]digit\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 X; y; digit
 ; pixel \OT1/cmr/m/n/10.95 =
  []
 
-<plots/Step 7.png, id=33, 462.528pt x 346.896pt>
+<plots/Step 7.png, id=44, 462.528pt x 346.896pt>
 File: plots/Step 7.png Graphic file (type png)
 <use plots/Step 7.png>
-Package pdftex.def Info: plots/Step 7.png  used on input line 139.
+Package pdftex.def Info: plots/Step 7.png  used on input line 172.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 [3]
-<plots/variance_0.png, id=41, 462.528pt x 346.896pt>
+<plots/variance_0.png, id=52, 462.528pt x 346.896pt>
 File: plots/variance_0.png Graphic file (type png)
 <use plots/variance_0.png>
-Package pdftex.def Info: plots/variance_0.png  used on input line 148.
+Package pdftex.def Info: plots/variance_0.png  used on input line 181.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
 [4 <./plots/Step 7.png> <./plots/variance_0.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Overfull \hbox (6.18149pt too wide) in paragraph at lines 159--160
+Overfull \hbox (6.18149pt too wide) in paragraph at lines 192--193
 []\LGR/cmr/m/n/10.95 Gia na sqedià-soume Ïla ta yh-f–a qrhsi-mop\T1/cmr/m/n/10.
 95 o\LGR/cmr/m/n/10.95 io‘me tic sunàrth-seic $\OML/cmm/m/it/10.95 plot[]digits
 []by[]mean$
  []
 
-<plots/all_digits_mean.png, id=51, 739.563pt x 87.32625pt>
+<plots/all_digits_mean.png, id=62, 739.563pt x 87.32625pt>
 File: plots/all_digits_mean.png Graphic file (type png)
 <use plots/all_digits_mean.png>
-Package pdftex.def Info: plots/all_digits_mean.png  used on input line 163.
+Package pdftex.def Info: plots/all_digits_mean.png  used on input line 196.
 (pdftex.def)             Requested size: 460.08159pt x 54.32692pt.
 
-Overfull \hbox (41.82791pt too wide) in paragraph at lines 163--164
+Overfull \hbox (41.82791pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
-<plots/all_digits_variance.png, id=52, 321.6015pt x 46.9755pt>
+<plots/all_digits_variance.png, id=63, 321.6015pt x 46.9755pt>
 File: plots/all_digits_variance.png Graphic file (type png)
 <use plots/all_digits_variance.png>
-Package pdftex.def Info: plots/all_digits_variance.png  used on input line 170.
+Package pdftex.def Info: plots/all_digits_variance.png  used on input line 203.
 
 (pdftex.def)             Requested size: 460.08159pt x 67.20381pt.
 
-Overfull \hbox (41.82791pt too wide) in paragraph at lines 170--171
+Overfull \hbox (41.82791pt too wide) in paragraph at lines 203--204
  [][] 
  []
 
 
-Overfull \hbox (13.77328pt too wide) in paragraph at lines 176--177
+Overfull \hbox (13.77328pt too wide) in paragraph at lines 209--210
 \LGR/cmr/m/n/10.95 tashc\T1/cmr/m/n/10.95 . \LGR/cmr/m/n/10.95 AutÏc ulopoie–-t
 ai me thn bo†-jeia d‘o sunart†sewn\T1/cmr/m/n/10.95 . \LGR/cmr/m/n/10.95 H sunà
 rthsh $\OML/cmm/m/it/10.95 euclidean[]distance$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 [5 <./plots/all_digits_mean.png> <./plots/all_digits_variance.png>]
-<plots/figure_101.png, id=62, 462.528pt x 346.896pt>
+<plots/figure_101.png, id=73, 462.528pt x 346.896pt>
 File: plots/figure_101.png Graphic file (type png)
 <use plots/figure_101.png>
-Package pdftex.def Info: plots/figure_101.png  used on input line 189.
+Package pdftex.def Info: plots/figure_101.png  used on input line 222.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 [6 <./plots/figure_101.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-<plots/learning_curve.png, id=69, 462.528pt x 346.896pt>
+<plots/learning_curve.png, id=81, 462.528pt x 346.896pt>
 File: plots/learning_curve.png Graphic file (type png)
 <use plots/learning_curve.png>
-Package pdftex.def Info: plots/learning_curve.png  used on input line 241.
+Package pdftex.def Info: plots/learning_curve.png  used on input line 274.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 [7] [8 <./plots/learning_curve.png>] (Report.aux)
 
@@ -1270,27 +1281,34 @@ Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16860 strings out of 479321
- 261153 string characters out of 2856584
+ 16886 strings out of 479321
+ 261378 string characters out of 2856584
  577316 words of memory out of 3000000
- 34005 multiletter control sequences out of 15000+600000
- 412559 words of font info for 51 fonts, out of 8000000 for 9000
+ 34021 multiletter control sequences out of 15000+600000
+ 419214 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,14n,117p,1219b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\vassi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
 1095.pk> <C:\Users\vassi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1095.pk><C:/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmex10.pfb><C:/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vassi/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/vassi/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vassi/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vassi/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vassi
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1095.pfb><C:/User
-s/vassi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grxn1095.pfb>
-Output written on Report.pdf (8 pages, 249792 bytes).
+0\ecrm1095.pk> <C:\Users\vassi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm1440.pk> <C:\Users\vassi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1728.pk><C:/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/vassi/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/vassi/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/vassi/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vassi/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/va
+ssi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1095.
+pfb><C:/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/gr
+mn1440.pfb><C:/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbg
+reek/grmn1728.pfb><C:/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/cbgreek/grxn1095.pfb><C:/Users/vassi/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/cbgreek/grxn1728.pfb><C:/Users/vassi/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/cbgreek/grxn2488.pfb>
+Output written on Report.pdf (9 pages, 324539 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
