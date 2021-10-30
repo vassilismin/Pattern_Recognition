@@ -531,50 +531,41 @@ def compare_classifiers(X, y):
  classifier or the best combination of classifiers.'''
 
 '''Firstly we implement the Voting Method'''
+# STEP 18
 def evaluate_voting_classifier(X, y, folds=5):
     """ Create a voting ensemble classifier and evaluate it using cross-validation
     Calls evaluate_classifier
     """
     clf1 = GaussianNB()
-    clf2 = SVC(kernel='rbf')
+    clf2 = KNeighborsClassifier()
     clf3 = SVC(kernel='linear')
-    clf4 = KNeighborsClassifier()
-    clf5 = BaggingClassifier()
-    clf = VotingClassifier(estimators=[('GNB', clf1), ('L-SVC', clf2), ('RBF-SVC', clf3),
-                                         ('K-NN', clf4), ('BAG', clf5)], voting='hard')
-    clf.fit(X, y)
-    print('Sklearn Voting Classifier gives an accuracy of:', 100 * clf.score(test_features, test_labels),
-          '%')
-    cross_val = cross_val_score(clf, X, y, cv=KFold(n_splits=folds))
-    print("The 5-fold cross-validation score of the Sklearn Voting estimator"
-          " is %f +-%f" % (100 * np.mean(cross_val), 100 * np.std(cross_val)))
-    return cross_val
+    clf4 = SVC(kernel='rbf')
 
-# evaluate_voting_classifier(train_features, train_labels)
+    ensemble = VotingClassifier(estimators=[('gnb',clf1), ('kn',clf2),
+     ('svc_l',clf3)], voting='hard')#,('svc_rbf', clf4)
+    ensemble.fit(X,y)
+    print('SK-learn Voting Classifier =', 100*ensemble.score(test_features,test_labels))
+    cross_validation = cross_val_score(ensemble, X, y, cv=KFold(n_splits=folds))
+    print('5-fold Cross-Validation score of Voting Classifier =', '%f +- %f',(100*np.mean(cross_validation),100*np.std(cross_validation)))
+    return(cross_validation)
+    raise NotImplementedError
 
+#evaluate_voting_classifier(train_features,train_labels)
 
 def evaluate_bagging_classifier(X, y, folds=5):
     """ Create a bagging ensemble classifier and evaluate it using cross-validation
     Calls evaluate_classifier
     """
-    clf = BaggingClassifier()
-    clf.fit(X, y)
-    print('Sklearn Bagging Classifier gives an accuracy of:', 100 * clf.score(test_features, test_labels),
-          '%')
-    cross_val = cross_val_score(clf, X, y, cv=KFold(n_splits=folds))
-    print("The 5-fold cross-validation score of the Sklearn Bagging estimator"
-          " is %f +-%f" % (100 * np.mean(cross_val), 100 * np.std(cross_val)))
-    return cross_val
+    base_clf_1 = GaussianNB()
+    ensemble_clf = BaggingClassifier(base_estimator=base_clf_1,n_estimators=10)
+    ensemble_clf.fit(X,y)
+    print('SK-learn Bagging Classifier =', 100*ensemble_clf.score(test_features,test_labels))
+    cross_validation = cross_val_score(ensemble_clf, X, y, cv=KFold(n_splits=folds))
+    print('5-fold Cross-Validation score of Bagging Classifier =', '%f +- %f',(100*np.mean(cross_validation),100*np.std(cross_validation)))
+    return(cross_validation)
+    raise NotImplementedError
 
-# evaluate_bagging_classifier(train_features, train_labels)
-
-
-
-
-
-
-
-
+#evaluate_bagging_classifier(train_features,train_labels)
 
 
 '''Step 19 is to construct a Pytorch Neural Network that will do the classification task'''
